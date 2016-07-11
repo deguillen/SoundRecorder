@@ -7,9 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Recording.h"
+#import <AVFoundation/AVFoundation.h>
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIProgressView *timer;
+
+@property (weak, nonatomic) IBOutlet UIButton *startButton;
+
+@property (weak, nonatomic) IBOutlet UIButton *stopButton;
+
+
+@property (strong) Recording *currentRecording;
+@property (strong) NSMutableArray *listOfRecordings;
+@property (strong) AVAudioRecorder* recorder;
+@property (strong) NSTimer* actualTimer;
+@property int count;
+@property (weak, nonatomic) IBOutlet UILabel *secondLabel;
 
 @end
 

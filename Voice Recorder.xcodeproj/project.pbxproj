@@ -13,6 +13,8 @@
 		655F8AB51D2D60B9005B5510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655F8AB31D2D60B9005B5510 /* Main.storyboard */; };
 		655F8AB71D2D60B9005B5510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655F8AB61D2D60B9005B5510 /* Assets.xcassets */; };
 		655F8ABA1D2D60B9005B5510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655F8AB81D2D60B9005B5510 /* LaunchScreen.storyboard */; };
+		655F8AC31D2D60EA005B5510 /* Recording.m in Sources */ = {isa = PBXBuildFile; fileRef = 655F8AC21D2D60EA005B5510 /* Recording.m */; };
+		65E7F8121D2FF2C700584D0E /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E7F8111D2FF2C700584D0E /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		655F8AB61D2D60B9005B5510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		655F8AB91D2D60B9005B5510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		655F8ABB1D2D60B9005B5510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		655F8AC11D2D60EA005B5510 /* Recording.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recording.h; sourceTree = "<group>"; };
+		655F8AC21D2D60EA005B5510 /* Recording.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recording.m; sourceTree = "<group>"; };
+		65E7F8101D2FF2C700584D0E /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		65E7F8111D2FF2C700584D0E /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 		655F8AA91D2D60B9005B5510 /* Voice Recorder */ = {
 			isa = PBXGroup;
 			children = (
+				65E7F8101D2FF2C700584D0E /* TableViewController.h */,
+				65E7F8111D2FF2C700584D0E /* TableViewController.m */,
 				655F8AAD1D2D60B9005B5510 /* AppDelegate.h */,
 				655F8AAE1D2D60B9005B5510 /* AppDelegate.m */,
 				655F8AB01D2D60B9005B5510 /* ViewController.h */,
@@ -75,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				655F8AAB1D2D60B9005B5510 /* main.m */,
+				655F8AC11D2D60EA005B5510 /* Recording.h */,
+				655F8AC21D2D60EA005B5510 /* Recording.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -152,6 +162,8 @@
 				655F8AB21D2D60B9005B5510 /* ViewController.m in Sources */,
 				655F8AAF1D2D60B9005B5510 /* AppDelegate.m in Sources */,
 				655F8AAC1D2D60B9005B5510 /* main.m in Sources */,
+				65E7F8121D2FF2C700584D0E /* TableViewController.m in Sources */,
+				655F8AC31D2D60EA005B5510 /* Recording.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +314,7 @@
 				655F8AC01D2D60B9005B5510 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
