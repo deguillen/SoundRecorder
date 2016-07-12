@@ -46,13 +46,6 @@
     }
     return self;
 }
--(NSURL*) otherUrl {
-    NSString* home = NSHomeDirectory();
-    NSDateFormatter* formatter = [[NSDateFormatter alloc] init];
-    [formatter setDateFormat:@"yyyyMMddhhmmss"];
-    NSString* dateString = [formatter stringFromDate:self.date];
-    NSString* tempPath = [NSString stringWithFormat:@"%@/Documents/%@.m4a", home, dateString];
-    return [NSURL fileURLWithPath:tempPath];
-}
+
 
 @end

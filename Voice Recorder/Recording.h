@@ -10,7 +10,7 @@
 
 @interface Recording : NSObject
 @property (strong,nonatomic) NSDate* date;
-@property (readonly, nonatomic) NSURL* otherUrl; 
+
 
 
 @property (readonly, nonatomic) NSString* path;
